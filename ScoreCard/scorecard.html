@@ -1,0 +1,39 @@
+<!doctype HTML
+<html>
+	<head>
+		<title>Score Card</title>
+		<link rel="stylesheet" type="text/css" href="scoreCardStyle.css">
+	</head>
+	<body>
+		<h1 id="first">Score Card</h1>
+		
+		<div id="card">
+			<h1><span id="runs">0</span>-<span id="wickets">0</span></h1>
+			<h3><span id="overs">0</span>.<span id="balls">0</span></h3>
+			<table border="2">
+				<caption>This Over</caption>
+				<tr>
+					<th>.</th>
+					<th>.</th>
+					<th>.</th>
+					<th>.</th>
+					<th>.</th>
+					<th>.</th>
+				</tr>
+			</table>
+		</div>
+		
+		<div id="btndiv">
+			<button onclick="updateRuns(this)">0</button>
+			<button onclick="updateRuns(this)">1</button>
+			<button onclick="updateRuns(this)">2</button>
+			<button onclick="updateRuns(this)">3</button>
+			<button onclick="updateRuns(this)">4</button>
+			<button onclick="updateRuns(this)">6</button>
+			<button onclick="updateRuns(this)">Wide</button>
+			<button onclick="updateRuns(this)">No ball</button>
+			<button onclick="updateRuns(this)">Wicket</button>
+		</div>
+	</body>
+	<script src="scoreCardScript.js"></script>
+</html>

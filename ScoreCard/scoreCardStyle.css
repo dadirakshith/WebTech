@@ -1,0 +1,47 @@
+body
+			{
+				background: url('https://i.pinimg.com/originals/f4/0c/fe/f40cfef2ef26c8f87ea65894d0ba41d7.jpg');
+				background-repeat: no-repeat;
+				background-position: center;
+				background-size: cover;
+			}
+			#first
+			{
+				width: 25%;
+				border: 2px solid #fff;
+				border-radius: 10px;
+				text-align: center;
+				color: #fff;
+				background: rgba(0,0,0,0.25);
+				margin: 0 35%;
+			}
+			#card
+			{
+				width: 35%;
+				border: 2px solid #fff;
+				border-radius: 10px;
+				text-align: center;
+				color: #fff;
+				background: rgba(0,0,0,0.5);
+				margin: 3% 30%;
+			}
+			table
+			{
+				color: #fff;
+				width: 80%;
+				margin: 2% 10%;
+			}
+			#btndiv
+			{
+				text-align: center;
+			}
+			#btndiv button
+			{
+				width: 200px;
+				height: 40px;
+				font-size: 25px;
+				margin: 2% auto;
+				color: #fff;
+				background: #de4935;
+				border: 3px solid rgb(25,234,56);
+			}
